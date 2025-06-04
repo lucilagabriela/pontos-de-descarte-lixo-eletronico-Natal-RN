@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/* Importação das Fontes do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+/* Identidade visual:
+    Texto principal #212121
+    Verde #4CAF50
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-header {
+    color: #4CAF50;
+}
+
+#space {
+    color: #374151;
+}

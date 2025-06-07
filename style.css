@@ -10,7 +10,6 @@
 
 * { /* reset css: apaga as configurações pré-definidas do navegador */
     margin: 0;
-    padding: 0;
     outline: 0;
     box-sizing: border-box;
     text-decoration: none;
@@ -23,9 +22,19 @@ body {
 }
 
 header {
-    /*osition: fixed;*/
+    /*position: fixed*/
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    margin-bottom: 14px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
 }
+
 
 h1 {
     font-family: 'Montserrat', sans-serif;
@@ -40,5 +49,5 @@ h1 {
 }
 
 #inicio {
-    margin-top: 1000em;
+    padding-top: 10px;
 }

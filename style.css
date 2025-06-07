@@ -6,6 +6,7 @@
 /* Identidade visual:
     Texto principal #212121
     Verde #4CAF50
+    Background inicio #333333
 */
 
 * { /* reset css: apaga as configurações pré-definidas do navegador */
@@ -41,6 +42,11 @@ header {
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
     font-size: 18px;
+}
+
+#inicio {
+    background-color: #212121;
+    color: beige;
 }
 
 h1 {

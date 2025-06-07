@@ -22,19 +22,26 @@ body {
 }
 
 header {
-    /*position: fixed*/
-    display: flex;
-    flex-direction: column;
+    display: flex; /* quando coloca o display flex, ele automaticamente bota flex-direction row */
+    flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 10px;
+    padding-top: 24px;
     margin-bottom: 14px;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 100;
 }
 
+.cabecalho-imagem {
+    height: 50px;
+}
+
+.cabecalho-links {
+    display: flex;
+    gap: 35px;
+    color: #212121;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
 
 h1 {
     font-family: 'Montserrat', sans-serif;

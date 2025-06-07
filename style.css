@@ -8,7 +8,7 @@
     Verde #4CAF50
 */
 
-* {
+* { /* reset css: apaga as configurações pré-definidas do navegador */
     margin: 0;
     padding: 0;
     outline: 0;
@@ -23,7 +23,8 @@ body {
 }
 
 header {
-    position: fixed;
+    /*osition: fixed;*/
+    display: flex;
 }
 
 h1 {
@@ -36,4 +37,8 @@ h1 {
 
 #space {
     color: #374151;
+}
+
+#inicio {
+    margin-top: 1000em;
 }

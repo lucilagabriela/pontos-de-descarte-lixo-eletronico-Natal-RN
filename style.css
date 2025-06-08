@@ -84,13 +84,14 @@ header {
     margin: 50px;
     color: #fff;
     background-color: #4CAF50;
-    padding: 10px;
+    padding: 15px;
     font-weight: bold;
     cursor: pointer;
     font-size: 1em;
     border-radius: 10px;
     width: 300px;
     transition: all .2s ease-in-out;
+    border: none;
 }
 
 #formulario-contato {
@@ -173,10 +174,13 @@ header {
     text-align: center
 }
 
-#two-clouds-ajudar {
+.two-clouds-ajudar {
     padding-left: 5px;
-    list-style-position: inside;
-    columns: 2;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .text-help {
@@ -190,15 +194,38 @@ header {
     margin: 50px;
     color: #fff;
     background-color: #2196F3;
-    padding: 10px;
+    padding: 15px;
     font-weight: bold;
     cursor: pointer;
     font-size: 1em;
     border-radius: 10px;
     width: 300px;
     transition: all .2s ease-in-out;
+    border: none;
 }
 
 #button2:hover {
-    background-color: #1463a3;
+    background-color: #1b75be;
+}
+
+.lista1 li,
+.lista2 li {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #75778B;
+}
+
+.div-lista1 {
+    flex: 1;
+    min-width: 300px;
+}
+
+.div-lista2 {
+    flex: 1;
+    min-width: 300px;
+}
+
+#formulario-contato {
+    padding: 70px;
+    text-align: center;
 }
